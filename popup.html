@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GhostLink</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="icon.png" alt="GhostLink" class="logo">
+      <h1>GhostLink</h1>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="cleaner">Cleaner</button>
+      <button class="tab-btn" data-tab="settings">Settings</button>
+    </div>
+
+    <div id="cleaner" class="tab-content active">
+      <div class="input-group">
+        <textarea id="manualInput" placeholder="Paste a dirty link here..."></textarea>
+      </div>
+      <button id="cleanBtn" class="primary-btn">Purify Link</button>
+      <div id="resultArea" class="hidden">
+        <p class="label">Cleaned Link:</p>
+        <div class="result-box">
+          <span id="cleanedOutput"></span>
+          <button id="copyBtn" title="Copy to clipboard">📋</button>
+        </div>
+      </div>
+      <div class="stats">
+        <span id="statsCount">0</span> links purified automatically.
+      </div>
+    </div>
+
+    <div id="settings" class="tab-content">
+      <div class="setting-item">
+        <label for="toggleGlobal">
+          <span class="setting-title">GhostLink Active</span>
+          <span class="setting-desc">Master switch for auto-cleaning.</span>
+        </label>
+        <label class="switch">
+          <input type="checkbox" id="toggleGlobal" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+      
+      <hr>
+      
+      <div class="setting-group">
+        <h3>Block Categories</h3>
+        <div class="setting-item">
+          <label for="toggleAds">Ad Tracking (UTM, Google Ads)</label>
+          <input type="checkbox" id="toggleAds" checked>
+        </div>
+        <div class="setting-item">
+          <label for="toggleSocial">Social (FB, Insta, TikTok)</label>
+          <input type="checkbox" id="toggleSocial" checked>
+        </div>
+        <div class="setting-item">
+          <label for="toggleAnalytics">Analytics (HubSpot, Piwik)</label>
+          <input type="checkbox" id="toggleAnalytics" checked>
+        </div>
+        <div class="setting-item">
+          <label for="toggleMisc">Miscellaneous</label>
+          <input type="checkbox" id="toggleMisc" checked>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
