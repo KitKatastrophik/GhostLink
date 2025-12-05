@@ -32,10 +32,10 @@ GhostLink removes over 50 tracking parameters from these major platforms:
 ## Download
 | Browser | Store Link |
 |---------|------------|
-| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="24"/> **Chrome** | [Coming Soon](#) |
-| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="24"/> **Firefox** | [Coming Soon](#) |
-| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" width="24"/> **Edge** | [Coming Soon](#) |
-| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" width="24"/> **Opera** | [Coming Soon](#) |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="24"/> **Chrome** | [Maybe...](#) |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="24"/> **Firefox** | [Maybe...](#) |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" width="24"/> **Edge** | [Maybe...](#) |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" width="24"/> **Opera** | [Maybe...](#) |
 
 ## Installation (Developer Mode)
 1.  Clone or download this repository.
@@ -57,3 +57,4 @@ GhostLink does not collect, store, or transmit any user data. All URL processing
 
 ## License
 GNU General Public License v3.0
+
